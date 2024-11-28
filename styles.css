@@ -10,13 +10,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 650px;
+    height: auto;
+    padding: 10px;
     background-color: #1b4235;
     color: #dfdfe0;
 }
 
 #left-side-of-the-header {
-    margin-bottom: 50px;
+    margin-bottom: 140px;
 }
 
 #header-paragraph {
@@ -56,16 +57,16 @@ header {
 /* FIRST SECTION */
 
 #first-section {
-    height: 700px;
+    height: auto;
+    padding: 20px;
     background-color: #edd3c5;
     color: #391b0b;
-    padding-top: 1px;
 }
 
 #top-side-of-the-first-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #left-top-side-of-the-first-section {
@@ -125,14 +126,15 @@ header {
 /* SECOND SECTION */
 
 #second-section {
-    height: 860px;
+    height: auto;
+    padding: 20px;
     background-color: #b88364;
     color: #ffffff;
     padding-top: 1px;
 }
 
 #second-section-title {
-    margin: 80px 0 0 150px;
+    margin: 80px 0 0 35px;
     font-size: 70px;
 }
 
@@ -174,14 +176,14 @@ header {
 /* THIRD SECTION */
 
 #third-section {
-    height: 1500px;
+    height: auto;
+    padding: 20px;
     background-color: #ffffff;
-    padding-top: 1px;
 }
 
 #top-side-of-the-third-section {
     text-align: center;
-    margin-top: 75px;
+    margin-top: 35px;
 }
 
 #third-section-title {
@@ -205,7 +207,7 @@ header {
 
 #third-section-image-1 {
     width: 430px;
-    height: 450px;
+    height: 550px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
     border-radius: 30px;
@@ -214,7 +216,7 @@ header {
 
 #third-section-image-2 {
     width: 430px;
-    height: 450px;
+    height: 550px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
     border-radius: 30px;
@@ -223,7 +225,7 @@ header {
 
 #third-section-image-3 {
     width: 430px;
-    height: 450px;
+    height: 550px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
     border-radius: 30px;
@@ -268,24 +270,26 @@ header {
 /* FOURTH SECTION */
 
 #fourth-section {
-    height: 850px;
+    height: auto;
+    padding: 20px;
     background-color: #edd3c5;
     color: #391b0b;
-    padding-top: 1px;
 }
 
 #top-side-of-the-fourth-section {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 35px;
 }
 
 #fourth-section-title {
     font-size: 60px;
+    margin-bottom: 25px;
 }
 
 #fourth-section-paragraph {
     font-size: 27px;
     font-weight: bold;
+    margin-top: 0;
 }
 
 #bottom-side-of-the-fourth-section {
@@ -295,7 +299,7 @@ header {
 }
 
 #fourth-section-image-1 {
-    width: 430px;
+    width: 450px;
     height: 450px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
@@ -304,7 +308,7 @@ header {
 }
 
 #fourth-section-image-2 {
-    width: 600px;
+    width: 450px;
     height: 450px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
@@ -313,7 +317,7 @@ header {
 }
 
 #fourth-section-image-3 {
-    width: 230px;
+    width: 450px;
     height: 450px;
     margin: 0 10px 0 10px;
     border: 5px solid #391b0b;
@@ -329,13 +333,13 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 800px;
+    height: auto;
+    padding: 50px;
     background-color: #b88364;
-    padding-top: 1px;
 }
 
 #fifth-section-image-1 {
-    width: 830px;
+    width: 650px;
     height: 550px; 
     border: 5px solid #391b0b;
     border-radius: 30px;
@@ -343,7 +347,7 @@ header {
 }
 
 #fifth-section-image-2 {
-    width: 550px;
+    width: 650px;
     height: 550px;
     border: 5px solid #391b0b;
     border-radius: 30px;
@@ -355,14 +359,14 @@ header {
 /* SIXTH SECTION */
 
 #sixth-section {
-    height: 980px;
+    height: auto;
+    padding: 20px 10px;
     background-color: #ffffff;
-    padding-top: 1px;
 }
 
 #top-side-of-the-sixth-section {
     text-align: center;
-    margin-top: 55px;
+    margin-top: 35px;
 }
 
 #sixth-section-title {
@@ -385,7 +389,7 @@ header {
 }
 
 #sixth-section-image-1 {
-    width: 470px;
+    width: 450px;
     height: 580px;
     margin: 0 15px 0 15px;
     border: 5px solid #391b0b;
@@ -394,7 +398,7 @@ header {
 }
 
 #sixth-section-image-2 {
-    width: 470px;
+    width: 450px;
     height: 580px;
     margin: 0 15px 0 15px;
     border: 5px solid #391b0b;
@@ -403,7 +407,7 @@ header {
 }
 
 #sixth-section-image-3 {
-    width: 470px;
+    width: 450px;
     height: 580px;
     margin: 0 15px 0 15px;
     border: 5px solid #391b0b;
@@ -416,22 +420,24 @@ header {
 /* SЕVENTH SECTION */
 
 #seventh-section {
-    height: 1300px;
+    height: auto;
+    padding: 20px;
     background-color: #1b4235;
     color: #edd3c5;
-    padding-top: 1px;
     text-align: center;
 }
 
 #seventh-section-title {
     font-size: 60px;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 #top-side-of-the-seventh-section {
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
+    margin-top: 0;
 }
 
 .seventh-section-header-3 {
@@ -445,7 +451,7 @@ header {
 
 #bottom-side-of-the-seventh-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 30px;
     margin-top: 50px;
 }
@@ -454,7 +460,7 @@ header {
     width: 150px; /* Задай фиксирана ширина */
     height: 150px; /* Задай фиксирана височина */
     padding: 15px; /* Коригирай, ако е нужно */
-    margin: 30px;
+    margin: 15px 105px;
     background-color: #f9f9ff;
     color: #1b4235;
     border: 10px double #1b4235;
@@ -472,14 +478,14 @@ header {
 
 footer {
     text-align: center;
-    height: 800px;
+    height: auto;
+    padding: 20px;
     background-color: #ffffff;
     color: #1b4235;
-    padding-top: 1px;
 }
 
 #footer-title {
-    margin-top: 85px;
+    margin-top: 35px;
     font-size: 60px;
 }
 
@@ -505,7 +511,7 @@ footer {
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
 
     body {
-        font-size: 14px; /* Малко намален шрифт за мобилни устройства */
+        font-size: 14px; 
         text-align: center;
     }
 
@@ -535,15 +541,14 @@ footer {
     }
 
     #header-button {
-        width: 190px;
-        height: 60px;
+        width: 250px;
+        height: 75px;
         font-size: 25px;
     }
 
     #header-image {
-        width: 95%;
-        height: 250px;
-        margin-top: 0;
+        width: 97%; 
+        height: auto; 
     }
 
     /* --------------------- */
@@ -561,13 +566,14 @@ footer {
         margin: 10px 0;
     }
 
-    #first-section-heading-1 {
-        font-size: 45px; /* Намаляваме заглавието */
-        margin-bottom: 25px;
+    #first-section-heading-2 {
+        font-size: 55px; /* Намаляваме заглавието */
+        margin-bottom: 40px;
     }
 
     #first-section-paragraph {
         font-size: 28px;
+        margin-top: 0;
     }
 
     #bottom-side-of-the-first-section {
@@ -604,7 +610,7 @@ footer {
 
     #second-section-title {
         font-size: 50px; /* Намаляваме заглавието */
-        margin: 50px 0;
+        margin: 40px 0;
     }
 
     #bottom-side-of-the-second-section {
@@ -665,19 +671,19 @@ footer {
 
     #third-section-image-1 {
         width: 100%;
-        height: 300px;
+        height: 350px;
         margin: 20px 0;
     }
 
     #third-section-image-2 {
         width: 100%;
-        height: 300px;
+        height: 350px;
         margin: 20px 0;
     }
 
     #third-section-image-3 {
         width: 100%;
-        height: 300px;
+        height: 350px;
         margin: 20px 0;
     }
 
@@ -728,19 +734,19 @@ footer {
 
     #fourth-section-image-1 {
         width: 100%;
-        height: 500px;
+        height: 450px;
         margin: 20px 0;
     }
 
     #fourth-section-image-2 {
         width: 100%;
-        height: 350px;
+        height: 450px;
         margin: 20px 0;
     }
 
     #fourth-section-image-3 {
         width: 100%;
-        height: 500px;
+        height: 450px;
         margin: 20px 0;
     }
 
@@ -763,7 +769,7 @@ footer {
 
     #fifth-section-image-2 {
         width: 100%;
-        height: 350px;
+        height: 450px;
         margin: 20px 0;
     }
 
@@ -850,9 +856,9 @@ footer {
     }
 
     #footer-image-1 {
-        width: 290px;
-        height: 290px;
-        margin: 20px 0;
+        width: 255px;
+        height: 255px;
+        margin: 10px auto;
     }
 
     #footer-paragraph {
