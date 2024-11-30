@@ -66,7 +66,7 @@ header {
 #top-side-of-the-first-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 35px;
+    margin: 25px 0;
 }
 
 #left-top-side-of-the-first-section {
@@ -91,7 +91,6 @@ header {
 #bottom-side-of-the-first-section {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 #first-section-image-1 {
@@ -134,14 +133,14 @@ header {
 }
 
 #second-section-title {
-    margin: 80px 0 0 35px;
+    margin: 50px 0 0 35px;
     font-size: 70px;
 }
 
 #bottom-side-of-the-second-section {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #second-section-image-1 {
@@ -183,12 +182,11 @@ header {
 
 #top-side-of-the-third-section {
     text-align: center;
-    margin-top: 35px;
 }
 
 #third-section-title {
     font-size: 60px;
-    margin-bottom: 25px;
+    margin: 25px 0;
     color: #1b4235;
 }
 
@@ -278,12 +276,11 @@ header {
 
 #top-side-of-the-fourth-section {
     text-align: center;
-    margin-top: 35px;
 }
 
 #fourth-section-title {
     font-size: 60px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 #fourth-section-paragraph {
@@ -366,13 +363,12 @@ header {
 
 #top-side-of-the-sixth-section {
     text-align: center;
-    margin-top: 35px;
 }
 
 #sixth-section-title {
     font-size: 60px;
     color: #1b4235;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
 #sixth-section-paragraph {
@@ -429,23 +425,21 @@ header {
 
 #seventh-section-title {
     font-size: 60px;
-    margin-top: 50px;
-    margin-bottom: 25px;
+    margin: 25px 0;
 }
 
-#top-side-of-the-seventh-section {
+#top-left-and-right-side-of-the-seventh-section {
     display: flex;
     justify-content: space-evenly;
     font-size: 30px;
-    margin-top: 0;
+    margin-top: 25px;
 }
 
 .seventh-section-header-3 {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .seventh-section-paragraph {
-    margin-top: 0;
     color: #f9f9ff;
 }
 
@@ -460,7 +454,7 @@ header {
     width: 150px; /* Задай фиксирана ширина */
     height: 150px; /* Задай фиксирана височина */
     padding: 15px; /* Коригирай, ако е нужно */
-    margin: 15px 105px;
+    margin: 15px 65px;
     background-color: #f9f9ff;
     color: #1b4235;
     border: 10px double #1b4235;
@@ -485,14 +479,14 @@ footer {
 }
 
 #footer-title {
-    margin-top: 35px;
+    margin: 25px 0;
     font-size: 60px;
 }
 
 #footer-image-1 {
     width: 350px;
     height: 350px;
-    margin: 0 15px 0 15px;
+    margin: 25px 15px 0 15px;
     border: 20px solid #391b0b;
     border-radius: 50%;
 }
@@ -523,7 +517,7 @@ footer {
         flex-direction: column; /* Подреждаме елементите вертикално */
         align-items: center;
         height: auto; /* Няма нужда от фиксирана височина */
-        padding: 20px;
+        padding: 17px;
     }
 
     #left-side-of-the-header {
@@ -547,7 +541,7 @@ footer {
     }
 
     #header-image {
-        width: 97%; 
+        width: 98%; 
         height: auto; 
     }
 
@@ -563,12 +557,12 @@ footer {
     #top-side-of-the-first-section {
         flex-direction: column;
         align-items: center;
-        margin: 10px 0;
+        margin: 1px 0;
     }
 
     #first-section-heading-2 {
         font-size: 55px; /* Намаляваме заглавието */
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
 
     #first-section-paragraph {
@@ -579,6 +573,7 @@ footer {
     #bottom-side-of-the-first-section {
         flex-direction: column;
         align-items: center;
+        margin-top: 20px;
     }
 
     #first-section-image-1 {
@@ -610,7 +605,7 @@ footer {
 
     #second-section-title {
         font-size: 50px; /* Намаляваме заглавието */
-        margin: 40px 0;
+        margin: 30px 0 15px 0;
     }
 
     #bottom-side-of-the-second-section {
@@ -647,16 +642,17 @@ footer {
     }
 
     #top-side-of-the-third-section {
-        margin: 10px 0;
+        margin: 1px 0;
     }
 
     #third-section-title {
         font-size: 50px; /* Намаляваме заглавието */
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
 
     #third-section-paragraph {
-        font-size: 28px
+        font-size: 28px;
+        margin-top: 0;
     }
 
     #first-bottom-side-of-the-third-section {
@@ -715,16 +711,17 @@ footer {
     }
 
     #top-side-of-the-fourth-section {
-        margin: 10px 0;
+        margin: 1px 0;
     }
 
     #fourth-section-title {
         font-size: 50px;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
     }
 
     #fourth-section-paragraph {
         font-size: 28px;
+        margin-top: 0;
     }
 
     #bottom-side-of-the-fourth-section {
@@ -783,16 +780,17 @@ footer {
     }
 
     #top-side-of-the-sixth-section {
-        margin: 10px 0;
+        margin: 1px 0;
     }
 
     #sixth-section-title {
-        font-size: 50px;
-        margin-bottom: 40px;
+        font-size: 50px; 
+        margin-bottom: 15px;
     }
 
     #sixth-section-paragraph {
         font-size: 28px;
+        margin-top: 0;
     }
 
     #bottom-side-of-the-sixth-section {
@@ -827,18 +825,33 @@ footer {
         padding: 20px;
     }
 
-    #seventh-section-title {
-        font-size: 50px;
-        margin: 40px 0;
+    #top-side-of-the-seventh-section {
+        margin: 1px 0;
     }
 
-    #top-side-of-the-seventh-section {
+    #seventh-section-title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    #top-left-and-right-side-of-the-seventh-section {
         font-size: 30px;
+        margin-top: 0;
     }
 
     #bottom-side-of-the-seventh-section {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    
+    .circle-style {
+        width: 85px; 
+        height: 85px; 
+        padding: 10.5px; 
+        margin: 0;
+        font-size: 16px;
     }
 
     /* --------------------- */
@@ -852,7 +865,7 @@ footer {
 
     #footer-title {
         font-size: 50px;
-        margin: 40px 0;
+        margin: 25px 0 25px 0;
     }
 
     #footer-image-1 {
@@ -863,7 +876,36 @@ footer {
 
     #footer-paragraph {
         font-size: 30px;
+        margin-top: 25px;
     }
 
     /* --------------------- */
 }  
+
+/* STYLES ONLY FOR TABLETS */
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    
+    .circle-style {
+        width: 106px; 
+        height: 106px; 
+        padding: 20px; 
+        margin: 10px 30px;
+        font-size: 20px;
+    }
+}
+
+/* STYLES ONLY FOR SPECIFIC PHONES */
+
+@media only screen and (min-width: 320px) and (max-width: 360px){
+    
+    .circle-style {
+        width: 75px; 
+        height: 75px; 
+        padding: 10px; 
+        margin: 0;
+        font-size: 14px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------ */
