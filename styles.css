@@ -8,7 +8,7 @@ body {
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: auto;
     padding: 10px;
@@ -16,8 +16,13 @@ header {
     color: #dfdfe0;
 }
 
+#no-header-br br {
+    display: none;
+}
+
 #left-side-of-the-header {
-    margin-bottom: 140px;
+    margin-bottom: 145px;
+    margin-right: 90px;
 }
 
 #header-paragraph {
@@ -65,12 +70,13 @@ header {
 
 #top-side-of-the-first-section {
     display: flex;
-    justify-content: space-evenly;
-    margin: 25px 0;
+    justify-content: center;
+    margin: 25px 0; 
 }
 
 #left-top-side-of-the-first-section {
     text-align: center;
+    margin-right: 50px;
 }
 
 #first-section-heading-3 {
@@ -86,6 +92,7 @@ header {
 #right-top-side-of-the-first-section {
     font-size: 29px;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 #bottom-side-of-the-first-section {
@@ -133,7 +140,9 @@ header {
 }
 
 #second-section-title {
-    margin: 50px 0 0 35px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 965px 0 0;
     font-size: 70px;
 }
 
@@ -284,7 +293,7 @@ header {
 }
 
 #fourth-section-paragraph {
-    font-size: 27px;
+    font-size: 29px;
     font-weight: bold;
     margin-top: 0;
 }
@@ -328,7 +337,7 @@ header {
 
 #fifth-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: auto;
     padding: 50px;
@@ -341,6 +350,7 @@ header {
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
+    margin-right: 25px;
 }
 
 #fifth-section-image-2 {
@@ -349,6 +359,7 @@ header {
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
+    margin-left: 25px;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
@@ -372,7 +383,7 @@ header {
 }
 
 #sixth-section-paragraph {
-    font-size: 25px;
+    font-size: 29px;
     color: #391b0b;
     margin-top: 0;
     font-weight: bold;
@@ -425,14 +436,22 @@ header {
 
 #seventh-section-title {
     font-size: 60px;
-    margin: 25px 0;
+    margin: 25px 0 25px 15px;
 }
 
 #top-left-and-right-side-of-the-seventh-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     font-size: 30px;
     margin-top: 25px;
+}
+
+#left-side {
+    margin-right: 100px;
+}
+
+#right-side {
+    margin-left: 100px;
 }
 
 .seventh-section-header-3 {
@@ -447,7 +466,7 @@ header {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .circle-style {
@@ -508,6 +527,10 @@ footer {
         font-size: 14px; 
         text-align: center;
     }
+    
+    .no-br br {
+        display: none;
+    }
 
     /* --------------------- */
 
@@ -520,8 +543,14 @@ footer {
         padding: 17px;
     }
 
+    #no-header-br br {
+        display: block;
+    }
+
     #left-side-of-the-header {
         margin-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     #header-paragraph {
@@ -531,7 +560,7 @@ footer {
 
     #header-title {
         font-size: 50px; /* Намаляваме размера на шрифта */
-        margin-bottom: 40px
+        margin-bottom: 40px;
     }
 
     #header-button {
@@ -558,6 +587,16 @@ footer {
         flex-direction: column;
         align-items: center;
         margin: 1px 0;
+    }
+
+    #left-top-side-of-the-first-section {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #right-top-side-of-the-first-section {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     #first-section-heading-2 {
@@ -832,11 +871,21 @@ footer {
     #seventh-section-title {
         font-size: 50px;
         margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     #top-left-and-right-side-of-the-seventh-section {
         font-size: 30px;
         margin-top: 0;
+    }
+
+    #left-side {
+        margin-right: 10px;
+    }
+
+    #right-side {
+        margin-left: 10px;
     }
 
     #bottom-side-of-the-seventh-section {
@@ -882,18 +931,30 @@ footer {
     /* --------------------- */
 }  
 
+/* ------------------------------------------------------------------------------------------------ */
+
 /* STYLES ONLY FOR TABLETS */
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
-    
+
+    #left-side {
+        margin-right: 40px;
+    }
+
+    #right-side {
+        margin-left: 40px;
+    }
+
     .circle-style {
-        width: 106px; 
-        height: 106px; 
+        width: 120px; 
+        height: 120px; 
         padding: 20px; 
-        margin: 10px 30px;
+        margin: 10px 44px;
         font-size: 20px;
     }
 }
+
+/* ------------------------------------------------------------------------------------------------ */
 
 /* STYLES ONLY FOR SPECIFIC PHONES */
 
@@ -904,8 +965,431 @@ footer {
         height: 75px; 
         padding: 10px; 
         margin: 0;
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
 /* ------------------------------------------------------------------------------------------------ */
+
+/* FOR PHONES AND TABLETS IN LANDSCAPE */
+
+@media (orientation: landscape) and (max-width: 1440px) {
+
+    body {
+        font-size: 14px; 
+        text-align: center;
+    }
+
+    .no-br br {
+        display: none;
+    }
+
+    /* --------------------- */
+
+    /* HEADER */
+
+    header {
+        flex-direction: column; /* Подреждаме елементите вертикално */
+        align-items: center;
+        height: auto; /* Няма нужда от фиксирана височина */
+        padding: 17px;
+    }
+
+    #left-side-of-the-header {
+        margin-bottom: 50px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #header-paragraph {
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    #header-title {
+        font-size: 50px; /* Намаляваме размера на шрифта */
+        margin-bottom: 40px
+    }
+
+    #header-button {
+        width: 250px;
+        height: 75px;
+        font-size: 25px;
+    }
+
+    #header-image {
+        width: 98%; 
+        height: auto; 
+    }
+
+    /* --------------------- */
+
+    /* FIRST SECTION */
+
+    #first-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #top-side-of-the-first-section {
+        flex-direction: column;
+        align-items: center;
+        margin: 1px 0;
+    }
+
+    #left-top-side-of-the-first-section {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #right-top-side-of-the-first-section {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #first-section-heading-2 {
+        font-size: 55px; /* Намаляваме заглавието */
+        margin-bottom: 15px;
+    }
+
+    #first-section-paragraph {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    #bottom-side-of-the-first-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #first-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #first-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #first-section-image-3 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* SECOND SECTION */
+    
+    #second-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #second-section-title {
+        font-size: 50px; /* Намаляваме заглавието */
+        margin: 30px 0 15px 0;
+    }
+
+    #bottom-side-of-the-second-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    #second-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #second-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #second-section-image-3 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* THIRD SECTION */
+
+    #third-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #top-side-of-the-third-section {
+        margin: 1px 0;
+    }
+
+    #third-section-title {
+        font-size: 50px; /* Намаляваме заглавието */
+        margin-bottom: 15px;
+    }
+
+    #third-section-paragraph {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    #first-bottom-side-of-the-third-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #second-bottom-side-of-the-third-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #third-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #third-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #third-section-image-3 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #third-section-image-4 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #third-section-image-5 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #third-section-image-6 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* FOURTH SECTION */
+
+    #fourth-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #top-side-of-the-fourth-section {
+        margin: 1px 0;
+    }
+
+    #fourth-section-title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    #fourth-section-paragraph {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    #bottom-side-of-the-fourth-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fourth-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #fourth-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #fourth-section-image-3 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* FIFTH SECTION */
+
+    #fifth-section {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #fifth-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #fifth-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* SIXTH SECTION */
+
+    #sixth-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #top-side-of-the-sixth-section {
+        margin: 1px 0;
+    }
+
+    #sixth-section-title {
+        font-size: 50px; 
+        margin-bottom: 15px;
+    }
+
+    #sixth-section-paragraph {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    #bottom-side-of-the-sixth-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sixth-section-image-1 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    #sixth-section-image-2 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }   
+
+    #sixth-section-image-3 {
+        width: 99%;
+        height: 500px;
+        margin: 20px 0;
+    }
+
+    /* --------------------- */
+
+    /* SEVENTH SECTION */
+
+    #seventh-section {
+        height: auto;
+        padding: 20px;
+    }
+
+    #top-side-of-the-seventh-section {
+        margin: 1px 0;
+    }
+
+    #seventh-section-title {
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    #top-left-and-right-side-of-the-seventh-section {
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    #bottom-side-of-the-seventh-section {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-top: 0;
+    }
+    
+    .circle-style {
+        width: 106px; 
+        height: 106px; 
+        padding: 20px; 
+        margin: 10px 28px;
+        font-size: 20px;
+    }
+
+    /* --------------------- */
+
+    /* FOOTER */
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    #footer-title {
+        font-size: 50px;
+        margin: 25px 0 25px 0;
+    }
+
+    #footer-image-1 {
+        width: 255px;
+        height: 255px;
+        margin: 10px auto;
+    }
+
+    #footer-paragraph {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    /* --------------------- */ 
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* ONLY FOR TABLETS IN LANDSCAPE */
+
+@media (orientation: landscape) and (min-width: 768px) and (max-width: 1440px) {
+    
+    /* SEVENTH SECTION */
+
+    #left-side {
+        margin-right: 40px;
+    }
+
+    #right-side {
+        margin-left: 40px;
+    }
+
+    .circle-style {
+        width: 120px; 
+        height: 120px; 
+        padding: 20px; 
+        margin: 10px 45px;
+        font-size: 20px;
+    }
+  }
