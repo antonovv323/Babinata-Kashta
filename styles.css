@@ -22,7 +22,7 @@ header {
 
 #left-side-of-the-header {
     margin-bottom: 145px;
-    margin-right: 90px;
+    margin-right: 87px;
 }
 
 #header-paragraph {
@@ -47,10 +47,21 @@ header {
     font-family: "Gabriela", serif;
     font-size: 20px;
     font-weight: bold;
+    border: 5px solid #dfdfe0;
+    border-radius: 10px;
+    transition: all 0.3s ease; /* Плавен преход */
+}
+
+#header-button:hover {
+    color: #dfdfe0;
+    background-color: #2e5d49;
+    border: 5px solid #dfdfe0;
+    border-radius: 30px;
+    cursor: pointer;
 }
 
 #header-image {
-    width: 650px;
+    width: 653px;
     height: 550px;
     border: 5px solid #edd3c5;
     border-radius: 30px;
@@ -76,7 +87,7 @@ header {
 
 #left-top-side-of-the-first-section {
     text-align: center;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 #first-section-heading-3 {
@@ -92,7 +103,7 @@ header {
 #right-top-side-of-the-first-section {
     font-size: 29px;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 #bottom-side-of-the-first-section {
@@ -103,7 +114,7 @@ header {
 #first-section-image-1 {
     width: 430px;
     height: 330px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -112,7 +123,7 @@ header {
 #first-section-image-2 {
     width: 430px;
     height: 330px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -121,7 +132,7 @@ header {
 #first-section-image-3 {
     width: 430px;
     height: 330px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -142,7 +153,7 @@ header {
 #second-section-title {
     display: flex;
     justify-content: center;
-    margin: 50px 965px 0 0;
+    margin: 50px 934px 0 0;
     font-size: 70px;
 }
 
@@ -155,7 +166,7 @@ header {
 #second-section-image-1 {
     width: 440px;
     height: 500px;
-    margin: 0 15px 0 15px;
+    margin: 0 10.5px 0 10.5px;
     border: 5px solid #ffffff;
     border-radius: 30px;
     object-fit: cover;
@@ -164,7 +175,7 @@ header {
 #second-section-image-2 {
     width: 440px;
     height: 500px;
-    margin: 0 15px 0 15px;
+    margin: 0 10.5px 0 10.5px;
     border: 5px solid #ffffff;
     border-radius: 30px;
     object-fit: cover;
@@ -173,7 +184,7 @@ header {
 #second-section-image-3 {
     width: 440px;
     height: 500px;
-    margin: 0 15px 0 15px;
+    margin: 0 10.5px 0 10.5px;
     border: 5px solid #ffffff;
     border-radius: 30px;
     object-fit: cover;
@@ -215,7 +226,7 @@ header {
 #third-section-image-1 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -224,7 +235,7 @@ header {
 #third-section-image-2 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -233,7 +244,7 @@ header {
 #third-section-image-3 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -248,7 +259,7 @@ header {
 #third-section-image-4 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -257,7 +268,7 @@ header {
 #third-section-image-5 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -266,7 +277,7 @@ header {
 #third-section-image-6 {
     width: 430px;
     height: 550px;
-    margin: 0 10px 0 10px;
+    margin: 0 18px 0 18px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -307,7 +318,7 @@ header {
 #fourth-section-image-1 {
     width: 450px;
     height: 450px;
-    margin: 0 10px 0 10px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -316,7 +327,7 @@ header {
 #fourth-section-image-2 {
     width: 450px;
     height: 450px;
-    margin: 0 10px 0 10px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -325,7 +336,7 @@ header {
 #fourth-section-image-3 {
     width: 450px;
     height: 450px;
-    margin: 0 10px 0 10px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -350,7 +361,7 @@ header {
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
-    margin-right: 25px;
+    margin-right: 36px;
 }
 
 #fifth-section-image-2 {
@@ -359,7 +370,7 @@ header {
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
-    margin-left: 25px;
+    margin-left: 36px;
 }
 
 /* ------------------------------------------------------------------------------------------------ */
@@ -398,7 +409,7 @@ header {
 #sixth-section-image-1 {
     width: 450px;
     height: 580px;
-    margin: 0 15px 0 15px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -407,7 +418,7 @@ header {
 #sixth-section-image-2 {
     width: 450px;
     height: 580px;
-    margin: 0 15px 0 15px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -416,7 +427,7 @@ header {
 #sixth-section-image-3 {
     width: 450px;
     height: 580px;
-    margin: 0 15px 0 15px;
+    margin: 0 3px 0 3px;
     border: 5px solid #391b0b;
     border-radius: 30px;
     object-fit: cover;
@@ -436,7 +447,7 @@ header {
 
 #seventh-section-title {
     font-size: 60px;
-    margin: 25px 0 25px 15px;
+    margin: 25px 0;
 }
 
 #top-left-and-right-side-of-the-seventh-section {
@@ -447,11 +458,11 @@ header {
 }
 
 #left-side {
-    margin-right: 100px;
+    margin-right: 125px;
 }
 
 #right-side {
-    margin-left: 100px;
+    margin-left: 125px;
 }
 
 .seventh-section-header-3 {
@@ -473,7 +484,7 @@ header {
     width: 150px; /* Задай фиксирана ширина */
     height: 150px; /* Задай фиксирана височина */
     padding: 15px; /* Коригирай, ако е нужно */
-    margin: 15px 65px;
+    margin: 25px 150px;
     background-color: #f9f9ff;
     color: #1b4235;
     border: 10px double #1b4235;
@@ -502,12 +513,24 @@ footer {
     font-size: 60px;
 }
 
+#footer-advice {
+    font-size: 25px;
+}
+
 #footer-image-1 {
-    width: 350px;
-    height: 350px;
-    margin: 25px 15px 0 15px;
+    width: 400px;
+    height: 400px;
+    margin-top: 15px;
     border: 20px solid #391b0b;
     border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#footer-image-1:hover {
+    transform: scale(1.05); /* Леко увеличаване на изображението */
+    filter: brightness(1.2); /* Повишаване на яркостта */
+    border-color: #1b4235;
+    cursor: pointer; /* Промяна на курсора */
 }
 
 #footer-paragraph {
@@ -521,7 +544,7 @@ footer {
 
 /* FOR PHONES AND TABLETS */
 
-@media only screen and (min-width: 320px) and (max-width: 1024px) {
+@media (orientation: portrait) and (min-width: 320px) and (max-width: 1366px) {
 
     body {
         font-size: 14px; 
@@ -571,7 +594,7 @@ footer {
 
     #header-image {
         width: 98%; 
-        height: auto; 
+        height: 400px; 
     }
 
     /* --------------------- */
@@ -617,19 +640,19 @@ footer {
 
     #first-section-image-1 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #first-section-image-2 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #first-section-image-3 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -655,19 +678,19 @@ footer {
 
     #second-section-image-1 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #second-section-image-2 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #second-section-image-3 {
         width: 100%;
-        height: 250px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -706,37 +729,37 @@ footer {
 
     #third-section-image-1 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #third-section-image-2 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #third-section-image-3 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #third-section-image-4 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #third-section-image-5 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #third-section-image-6 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -770,19 +793,19 @@ footer {
 
     #fourth-section-image-1 {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #fourth-section-image-2 {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #fourth-section-image-3 {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -799,13 +822,13 @@ footer {
 
     #fifth-section-image-1 {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #fifth-section-image-2 {
         width: 100%;
-        height: 450px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -839,19 +862,19 @@ footer {
 
     #sixth-section-image-1 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
     #sixth-section-image-2 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }   
 
     #sixth-section-image-3 {
         width: 100%;
-        height: 350px;
+        height: 400px;
         margin: 20px 0;
     }
 
@@ -914,12 +937,16 @@ footer {
 
     #footer-title {
         font-size: 50px;
-        margin: 25px 0 25px 0;
+        margin: 25px 0 0 0;
+    }
+
+    #footer-advice {
+        margin-top: 15px;
     }
 
     #footer-image-1 {
-        width: 255px;
-        height: 255px;
+        width: 275px;
+        height: 275px;
         margin: 10px auto;
     }
 
@@ -935,7 +962,95 @@ footer {
 
 /* STYLES ONLY FOR TABLETS */
 
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1366px) {
+
+    #header-image {
+        height: auto; 
+    }
+
+    #first-section-image-1 {
+        height: 600px;
+    }
+    
+    #first-section-image-2 {
+        height: 600px;
+    }
+    
+    #first-section-image-3 {
+        height: 600px;
+    }
+
+    #second-section-image-1 {
+        height: 600px;
+    }
+    
+    #second-section-image-2 {
+        height: 600px;
+    }
+    
+    #second-section-image-3 {
+        height: 600px;
+    }
+
+    #third-section-image-1 {
+        height: 600px;
+    }
+    
+    #third-section-image-2 {
+        height: 600px;
+    }
+    
+    #third-section-image-3 {
+        height: 600px;
+    }
+
+    #third-section-image-4 {
+        height: 600px;
+    }
+    
+    #third-section-image-5 {
+        height: 600px;
+    }
+    
+    #third-section-image-6 {
+        height: 600px;
+    }
+
+    #fourth-section-image-1 {
+        height: 600px;
+    }
+
+    #fourth-section-image-2 {
+        height: 600px;
+    }
+
+    #fourth-section-image-3 {
+        height: 600px;
+    }
+
+    #fifth-section-image-1 {
+        height: 600px;
+    }
+
+    #fifth-section-image-2 {
+        height: 600px;
+    }
+
+    #fifth-section-image-3 {
+        height: 600px;
+    }
+
+    #sixth-section-image-1 {
+        height: 600px;
+    }
+
+    #sixth-section-image-2 {
+        height: 600px;;
+    }
+
+    #sixth-section-image-3 {
+        height: 600px;
+    }
 
     #left-side {
         margin-right: 40px;
@@ -952,7 +1067,28 @@ footer {
         margin: 10px 44px;
         font-size: 20px;
     }
+
+    #footer-image-1 {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+    }
 }
+
+/* ------------------------------------------------------------------------------------------------ */
+
+/* STYLES ONLY FOR iPad Mini AND ETC. */
+
+@media only screen and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) {
+    
+    .circle-style {
+        width: 120px; 
+        height: 120px; 
+        padding: 20px; 
+        margin: 10px 38px;
+        font-size: 20px;
+    }
+  }
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -966,6 +1102,12 @@ footer {
         padding: 10px; 
         margin: 0;
         font-size: 13px;
+    }
+
+    #footer-image-1 {
+        width: 250px;
+        height: 250px;
+        margin: 10px auto;
     }
 }
 
@@ -1393,3 +1535,29 @@ footer {
         font-size: 20px;
     }
   }
+
+  /* EFFECTS */
+
+  .element {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1s ease-out;
+  }
+  
+  .element.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #header-button {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1.0s ease-out, transform 1.0s ease-out;
+  }
+
+  #header-button.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ------------------------------------------------------------------------------------------------ */
