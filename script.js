@@ -3,7 +3,7 @@
 window.addEventListener('load', () => {
     setTimeout(() => {
         window.scrollTo(0, 0);
-    }, 100); // 100 милисекунди забавяне
+    }, 100);
 });
 
 // ----------------------------------------- //
@@ -41,7 +41,7 @@ window.addEventListener('load', () => {
         entries.forEach((entry, index) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('visible');
-                entry.target.style.transitionDelay = `${index * 0.2}s`;
+                entry.target.style.transitionDelay = `${index * 0.15}s`;
                 observer.unobserve(entry.target);
             }
         });
