@@ -87,7 +87,7 @@ header {
 
 #left-top-side-of-the-first-section {
     text-align: center;
-    margin-right: 99px;
+    margin-right: 123.5px;
 }
 
 #first-section-heading-3 {
@@ -103,7 +103,7 @@ header {
 #right-top-side-of-the-first-section {
     font-size: 29px;
     font-weight: bold;
-    margin-left: 99px;
+    margin-left: 123.5px;
 }
 
 #bottom-side-of-the-first-section {
@@ -150,7 +150,7 @@ header {
 #second-section-title {
     display: flex;
     justify-content: center;
-    margin: 50px 924px 0 0;
+    margin: 50px 922px 0 0;
     font-size: 70px;
 }
 
