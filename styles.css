@@ -543,10 +543,6 @@ footer {
     font-size: 60px;
 }
 
-#footer-advice {
-    font-size: 25px;
-}
-
 #footer-image-1 {
     width: 350px;
     height: 350px;
@@ -622,6 +618,10 @@ footer {
         width: 250px;
         height: 75px;
         font-size: 25px;
+    }
+
+    #header-button:hover {
+        background-color: #edd3c5;
     }
 
     #header-image {
@@ -999,10 +999,6 @@ footer {
         margin: 25px 0 25px 0;
     }
 
-    #footer-advice {
-        margin-top: 15px;
-    }
-
     #footer-image-1 {
         width: 275px;
         height: 275px;
@@ -1262,6 +1258,10 @@ footer {
         width: 250px;
         height: 75px;
         font-size: 25px;
+    }
+
+    #header-button:hover {
+        background-color: #edd3c5;
     }
 
     #header-image {
